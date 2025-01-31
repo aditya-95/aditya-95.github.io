@@ -1,22 +1,75 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aditya-95</title>
-    <meta name="description" content="aditya-95's online portfolio">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aditya Nale</title>
+    <style type="text/css">
+        body {
+            margin: 40px auto;
+            max-width: 700px;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #444;
+            padding: 0 10px
+        }
 
-    <link rel="stylesheet" href="styles.css">
+        h1,
+        h2,
+        h3 {
+            line-height: 1.2;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1 id="header_name">Aditya Nale</h1>
-            
-        </header>
-    </div>
+    <header>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span>
+                <h1 style="margin: 0;">Aditya Nale</h1>
+            </span>
+            <span>
+                <h3 style="margin: 0;"><a href="assets/AdityaNale-2025.pdf">Resume</a></h3>(updated Jan 2025)
+            </span>
+        </div>
+    </header>
+
+    <hr>
+
+    <h2>About</h2>
+    <p>I am a mechanical engineering student poassionate about robotics, computers, and everything related to machines.
+        Currently I am working on a 6 DOF robot (to learn about ROS, motion planning, etc.).</p>
+
+    <hr>
+
+    <h2>Projects</h2>
+    <h3>Simulation and prototyping of 6 DOF robotic manipulator</h3>
+    <p>Ongoing...</p>
+
+    <h3>Adaptive Robotic Gripper</h3>
+    <p>Designed a robotic gripper capable of adjusting its grip based on the shape of the object being held. Created
+        multiple design iterations in Onshape to fix issues. Used arduino and servo motors to create a working
+        prototype. It
+        received 1st place in the college’s Project Based Learning competition.</p>
+
+    <h3>Physics Simulation Program</h3>
+    <p>Developed a program in C that takes 2D velocity vectors as input and visualizes the resulting motion in real-time
+        using SDL. Available at https://github.com/aditya-95/PBL</p>
+    
+    <h3>RFID Attendence Logger</h3>
+    <p>Developed a fully automated RFID based attendance logger using MFRC522 sensor and ESP8266 which transmits card data to a python HTTP server. The server listens to incoming requests and stores data in a SQLite3 database with a simple web interface for searching the records.</p>
+
+    <hr>
+
+    <footer>
+        <div style="display: flex; justify-content: space-around; align-items: center;">
+            <a href="https://github.com/aditya-95" target="_blank">github</a>
+            <a href="https://www.linkedin.com/in/aditya-nale-46a716339/" target="_blank">linkedin</a>
+            <a href="mailto:adityanale95@gmail.com">Email</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
