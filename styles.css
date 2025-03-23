@@ -1,0 +1,35 @@
+body {
+    margin: 10px auto;
+    max-width: 850px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2b2b2b;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+h1 {
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+h2, h3 {
+    line-height: 1.2;
+}
+
+hr {
+    height: 2px;
+    border:none;
+    background-color: #2b2b2b;
+    border-radius:2px;
+}
+
+.navbar a {
+    color: #0048ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #4400ff
+}
